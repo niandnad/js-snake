@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     devServer: {
-        contentBase: path.resolve(__dirname, 'static'),
+        contentBase: path.resolve(__dirname, '.'),
         noInfo: true,
     },
     devtool: 'eval-source-map',
